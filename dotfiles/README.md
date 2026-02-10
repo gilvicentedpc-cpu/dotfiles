@@ -1,0 +1,3 @@
+# Meus Dotfiles
+
+Configurações personalizadas.
