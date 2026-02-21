@@ -11,11 +11,11 @@ void ft_rush(int x, int y)
         c = 1;
         while(c <= x)
         {
-            if (l == 1 && c == 1)
+            if (l == y && c == 1)
                 write(1, "A", 1);
-            else if (l == 1 && c == x)
+            else if (l == y && c == x)
                 write(1, "B", 1);
-            else if (l == y && (c == 1 || c == x))
+            else if (l == 1 && (c == 1 || c == x))
                 write(1, "C", 1);
             else if ((l == 1 || l == y) || (c == 1 || c == x))
                 write(1, "B", 1);
