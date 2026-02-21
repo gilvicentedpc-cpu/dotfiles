@@ -1,0 +1,1 @@
+/home/gil/dotfiles/.vimrc
